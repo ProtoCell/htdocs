@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Ex vue js samyC-antoineH</title>
+	<link rel="stylesheet" type="text/css" href="calcul.css">
+</head>
+<body >
+	<div id="calculette">
+
+	<div id="msg">
+		
+	</div>
+
+	<div id="calcul">
+		<button class="dalle" id="dalle1" @click="del()">C</button>
+		<button value="√" class="dalle" id="dalle2" @click="Add('√')">√</button>
+		<button value="%" class="dalle" id="dalle3" @click="Add('%')">%</button>
+		<button value="/" class="dalle" id="dalle4" @click="Add('/')">/</button>
+		<button value="7" class="dalle" id="dalle5" @click="Add('7')">7</button>
+		<button value="8" class="dalle" id="dalle6" @click="Add('8')">8</button>
+		<button value="9" class="dalle" id="dalle7" @click="Add('9')">9</button>
+		<button value="*" class="dalle" id="dalle8" @click="Add('*')">*</button>
+		<button value="4" class="dalle" id="dalle9" @click="Add('4')">4</button>
+		<button value="5" class="dalle" id="dalle10" @click="Add('5')">5</button>
+		<button value="6" class="dalle" id="dalle11" @click="Add('6')">6</button>
+		<button value="-" class="dalle" id="dalle12" @click="Add('-')">-</button>
+		<button value="1" class="dalle" id="dalle13" @click="Add('1')">1</button>
+		<button value="2" class="dalle" id="dalle14" @click="Add('2')">2</button>
+		<button value="3" class="dalle" id="dalle15" @click="Add('3')">3</button>
+		<button value="+" class="dalle" id="dalle16" @click="Add('+')">+</button>
+		<button value="0" class="dalle" id="dalle17" @click="Add('0')">0</button>
+		<button value="," class="dalle" id="dalle18" @click="Add('.')">.</button>
+		<button value="=" class="dalle" id="dalle19" @click="Resultat()">=</button>
+	</div>
+</div>
+	
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+</html>
